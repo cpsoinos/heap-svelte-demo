@@ -57,10 +57,11 @@
 				for (var p = 0; p < n.length; p++) heap[n[p]] = i(n[p]);
 			});
 
-		const searchParams = new URLSearchParams(window.location.search);
-		const shouldCompressCookies = searchParams.get('compressCookies') === 'true';
+		// const searchParams = new URLSearchParams(window.location.search);
+		// const shouldCompressCookies = searchParams.get('compressCookies') === 'true';
+
 		heap.load('660636389', {
-			compressCookies: shouldCompressCookies
+			// compressCookies: shouldCompressCookies
 		});
 	</script>
 </svelte:head>
